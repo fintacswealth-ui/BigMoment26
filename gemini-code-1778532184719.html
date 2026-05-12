@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigating Life's Big Moments | FIN TACS LLC & Apex Financial</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #0a1d37;
+            --gold: #b8860b;
+            --light-bg: #f4f7f9;
+            --white: #ffffff;
+            --text: #333333;
+            --accent-gold: #ffd700;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--white);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(10, 29, 55, 0.8), rgba(10, 29, 55, 0.8)), 
+                        url('https://images.unsplash.com/photo-1473186578172-c141e6798ee4?auto=format&fit=crop&q=80&w=1920');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .hero p.subtitle {
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Info Bar */
+        .info-bar {
+            background: var(--navy);
+            color: white;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            padding: 25px;
+            flex-wrap: wrap;
+            border-bottom: 4px solid var(--gold);
+        }
+
+        .info-item i {
+            color: var(--accent-gold);
+            margin-right: 12px;
+            font-size: 1.3rem;
+        }
+
+        /* Partners & Branding Section */
+        .partners-section {
+            background: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .partners-section h3 {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #888;
+            margin-bottom: 30px;
+        }
+
+        .logo-grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+
+        .partner-logo {
+            height: 70px; /* Slightly increased for better visibility */
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .partner-logo:hover {
+            transform: scale(1.05);
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .speaker-box {
+            background: var(--light-bg);
+            border-left: 6px solid var(--gold);
+            padding: 40px;
+            margin: 40px 0;
+            border-radius: 0 12px 12px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        /* Registration Container */
+        .registration-container {
+            background: var(--navy);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            margin-top: 60px;
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .reg-info { flex: 1; min-width: 300px; }
+        .reg-form-wrapper { flex: 1; min-width: 300px; background: white; padding: 40px; border-radius: 15px; color: var(--text); }
+
+        .reg-info h2 { font-size: 2.2rem; margin-bottom: 20px; color: var(--accent-gold); }
+        .reg-info ul { list-style: none; padding: 0; }
+        .reg-info li { margin-bottom: 15px; display: flex; align-items: center; font-size: 1.1rem; }
+        .reg-info li i { color: var(--accent-gold); margin-right: 15px; }
+
+        label { font-weight: bold; font-size: 0.9rem; display: block; margin-bottom: 5px; }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        .submit-btn {
+            background: var(--gold);
+            color: white;
+            border: none;
+            padding: 16px;
+            width: 100%;
+            font-weight: bold;
+            font-size: 1.1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .submit-btn:hover { background: #966d09; }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background: #f8f9fa;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .registration-container { padding: 40px 20px; }
+            .logo-grid { gap: 30px; }
+            .partner-logo { height: 50px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Navigating Life’s Big Moments</h1>
+            <p class="subtitle">Strategies for Education, Retirement and Beyond</p>
+            <p>Smart Planning Today for a More Confident Tomorrow</p>
+        </div>
+    </header>
+
+    <section class="info-bar">
+        <div class="info-item"><i class="fa-regular fa-calendar-check"></i> Wednesday, May 28</div>
+        <div class="info-item"><i class="fa-regular fa-clock"></i> 8:30 PM – 9:30 PM (ET)</div>
+        <div class="info-item"><i class="fa-solid fa-video"></i> Exclusive Live Webinar</div>
+    </section>
+
+    <section class="partners-section">
+        <h3>Collaborative Expertise From</h3>
+        <div class="logo-grid">
+            <img src="FIN_TACS_Logo.png" alt="FIN TACS" class="partner-logo">
+            <img src="image_44983f.png" alt="Apex Financial" class="partner-logo">
+            <img src="image_4498bb.png" alt="Fidelity Investments" class="partner-logo">
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="speaker-box">
+            <h2 style="margin-top:0; color:var(--navy);">Featured Guest Speaker</h2>
+            <span style="color:var(--gold); font-weight:bold; font-size: 1.2rem; display: block; margin-bottom: 10px;">
+                Kevin Furtado — VP of Institutional Accounts at Fidelity Investments
+            </span>
+            <p>Join <strong>FIN TACS LLC & Apex Financial</strong> for a session combining deep CPA expertise with institutional frameworks. We help you navigate the complexities of tax-efficient wealth management and retirement planning.</p>
+        </div>
+
+        <div class="registration-container">
+            <div class="reg-info">
+                <h2>Wealth isn’t luck, it’s a plan.</h2>
+                <ul>
+                    <li><i class="fa-solid fa-check-circle"></i> Strategies for Education & Career</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Retirement & Income Protection</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Driven by 20+ years of CPA expertise</li>
+                </ul>
+                <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.2);">
+                    <p><strong>Host Organizations:</strong><br>
+                    FIN TACS LLC & Apex Financial</p>
+                </div>
+            </div>
+
+            <div class="reg-form-wrapper">
+                <h3 style="margin-top: 0; text-align: center; color: var(--navy);">Register to Attend</h3>
+                <form action="mailto:fintacswealth@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                    
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="Email" placeholder="Your Email Address" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="Phone" placeholder="Your Phone Number" required>
+                    
+                    <input type="hidden" name="Subject" value="Webinar Registration - FIN TACS LLC & Apex Financial">
+                    
+                    <button type="submit" class="submit-btn">Complete Registration</button>
+                </form>
+                <p style="font-size: 0.7rem; color: #888; margin-top: 10px; text-align: center;">
+                    Submitting will open your email app. Simply hit "Send" to transmit your registration details.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>FIN TACS LLC & Apex Financial</strong></p>
+        <p>Providing specialized financial consulting backed by over two decades of industry leadership.</p>
+        <p style="margin-top: 15px; font-size: 0.8rem;">&copy; 2026. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
